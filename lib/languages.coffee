@@ -15,6 +15,10 @@ module.exports = LANGUAGES =
     nameMatchers:      ['.cs']
     pygmentsLexer:     'csharp'
     singleLineComment: ['//']
+    multiLineComment:  [
+      '/*', '', '*/',
+      '/*', '*', '*/'
+    ]
     ignorePrefix:      '}'
 
   'C++':
